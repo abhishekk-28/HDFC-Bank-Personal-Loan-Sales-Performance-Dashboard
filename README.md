@@ -119,9 +119,9 @@ The dataset contains sales executives across multiple locations, including:
 
 The dashboard uses Excel formulas to calculate important performance metrics.
 
-### Total Sales
-
-```excel
-=SUM(D2:H2)
-
 📌 Disclaimer: This project uses a simulated dataset created solely for learning, portfolio, and demonstration purposes. The data, figures, sales performance, targets, employee information, and analysis do not represent or reflect the actual data, operations, performance, or business activities of HDFC Bank or any other organization.
+
+
+
+
+
