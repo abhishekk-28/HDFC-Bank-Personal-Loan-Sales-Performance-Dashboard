@@ -1,53 +1,127 @@
-HDFC Bank – Personal Loan Sales Performance Dashboard
-Overview
+# 🏦 HDFC Bank – Personal Loan Sales Performance Dashboard
 
-This Excel workbook tracks the daily sales performance of the Personal Loan sales team for HDFC Bank. It consolidates individual executive-level sales data into an interactive dashboard that highlights top and bottom performers, making it easy for sales managers to monitor productivity, identify coaching opportunities, and recognize high achievers.
+<p align="center">
+  <strong>Excel • Sales Analytics • Performance Tracking • Business Intelligence</strong>
+</p>
 
-File Structure
+---
 
-The workbook contains two sheets:
+## 📌 Project Overview
 
-1. Row Data
+The **HDFC Bank – Personal Loan Sales Performance Dashboard** is an interactive Excel-based sales analytics project designed to monitor and analyse the performance of personal loan sales executives.
 
-The raw data sheet — one row per sales executive. Columns include:
+The dashboard provides a consolidated view of sales performance, target achievement, and individual executive performance across multiple regions and daily sales activities.
 
-Column	Description
-Emp Code	Unique employee identifier (e.g. Mum-TCL001)
-Sales Executive	Employee name
-Region	Branch/region (Mumbai, Delhi, Nagpur, Chennai, Pune, Patna, Ranchi, Surat)
-Day1–Day5	Number of personal loan sales made each day over a 5-day tracking window
-Total Sales	Sum of Day1–Day5
-Target	Sales target per executive (fixed at 500)
-Target Hit %	Total Sales ÷ Target
-Away From Target %	Percentage shortfall from target (1 − Target Hit %)
+The project demonstrates practical skills in **Microsoft Excel, data analysis, KPI reporting, performance tracking, formulas, and dashboard development**.
 
-This sheet holds data for 141 sales executives across 8 regions.
+---
 
-2. Dash Board
+## 🎯 Business Objectives
 
-A summary view built on top of the raw data, using pivot tables, slicers, and charts to surface:
+The dashboard was developed to:
 
-Top 5 Sales Executives — ranked by Total Sales
-Bottom 5 Sales Executives — ranked by Total Sales
-Target Achievement % — executives ranked by highest Target Hit %
-Away From Target % — executives ranked by largest shortfall from target
-Purpose
+- Monitor personal loan sales performance
+- Compare sales executives based on total sales
+- Track individual sales targets
+- Measure target achievement percentage
+- Identify executives performing above or below targets
+- Analyse daily sales activity
+- Compare sales performance across regions
+- Identify top and bottom-performing sales executives
 
-The dashboard is intended as a quick management tool to:
+---
 
-Spot top-performing sales executives for recognition or incentive programs
-Flag underperforming executives who may need additional training or support
-Compare performance across regions and individuals over the tracking period
+## 📊 Dashboard Features
 
-How to Use
-Open the Dash Board sheet for the at-a-glance summary view.
-Use the slicer(s) to filter by region or other available dimensions.
-Refer to the Row Data sheet for the underlying daily figures behind any summary number.
-Pivot tables and charts can be refreshed (right-click → Refresh) if the underlying Row Data is updated.
+### 🔹 Sales Performance
 
-Notes / Assumptions
-The daily sales target appears fixed at 500 per executive across the tracking window.
-"Day1"–"Day5" represent a 5-day sales tracking cycle (exact calendar dates are not specified in the sheet).
-Employee codes follow a regional prefix pattern (e.g. Mum-TCL0xx) though the code prefix does not always match the listed region — worth verifying against source HR/sales records if used for official reporting.
+The dashboard provides an overview of:
 
-📌 Disclaimer: This project uses a simulated dataset created solely for learning and demonstration purposes, and does not reflect actual data, figures, or operations of any organization.
+- Total Sales
+- Sales Executive Performance
+- Target Achievement %
+- Away From Target %
+- Top Sales Executives
+- Bottom Sales Executives
+
+### 🔹 Performance Tracking
+
+Each sales executive is evaluated based on:
+
+- Daily sales performance
+- Total sales
+- Assigned target
+- Target achievement percentage
+- Percentage away from target
+
+### 🔹 Executive Analysis
+
+The dashboard highlights:
+
+- Top-performing sales executives
+- Bottom-performing sales executives
+- Individual target achievement
+- Performance gaps against assigned targets
+
+---
+
+## 📈 Key Metrics
+
+The underlying dataset contains the following fields:
+
+| Metric | Description |
+|---|---|
+| **Employee Code** | Unique identifier for each sales executive |
+| **Sales Executive** | Name of the sales executive |
+| **Region** | Assigned location/region |
+| **Day 1 – Day 5** | Daily sales performance |
+| **Total Sales** | Total sales generated during the period |
+| **Target** | Assigned sales target |
+| **Target Hit %** | Percentage of target achieved |
+| **Away From Target %** | Percentage remaining from the target |
+
+---
+
+## 🔎 Analysis Areas
+
+### 1. Sales Executive Performance
+
+Compare individual sales executives based on total sales and target achievement.
+
+### 2. Daily Sales Analysis
+
+Analyse sales activity across five working days to understand individual performance patterns.
+
+### 3. Target Achievement
+
+Measure how effectively each sales executive performed against the assigned target.
+
+### 4. Performance Gap
+
+Identify the percentage by which an executive is below the assigned target.
+
+### 5. Regional Analysis
+
+The dataset contains sales executives across multiple locations, including:
+
+- Mumbai
+- Delhi
+- Nagpur
+- Chennai
+- Pune
+- Patna
+- Ranchi
+- Surat
+
+---
+
+## 🧮 Calculations
+
+The dashboard uses Excel formulas to calculate important performance metrics.
+
+### Total Sales
+
+```excel
+=SUM(D2:H2)
+
+📌 Disclaimer: This project uses a simulated dataset created solely for learning, portfolio, and demonstration purposes. The data, figures, sales performance, targets, employee information, and analysis do not represent or reflect the actual data, operations, performance, or business activities of HDFC Bank or any other organization.
